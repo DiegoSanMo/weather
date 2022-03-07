@@ -1,0 +1,20 @@
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.description {
+  position: absolute;
+  font-size: 16px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.img-container:hover .description {
+  transition: ease-in opacity 0.3s, visibility 0.2s;
+  font-size: 16px;
+  visibility: visible;
+  opacity: 1;
+}

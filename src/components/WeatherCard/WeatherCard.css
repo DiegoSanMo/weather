@@ -1,0 +1,45 @@
+.weather_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.city_data {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.city_data {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.weather_img {
+  width: 100%;
+  height: auto;
+}
+
+.description:hover {
+  position: absolute;
+  font-size: 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  word-break: 100%;
+  padding: 10px;
+  color: black;
+  opacity: 0;
+}
+
+.description:hover {
+  opacity: 0.5;
+}
